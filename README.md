@@ -1,4 +1,11 @@
-# Flight Delay Prediction REST API
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-REST%20API-009688)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Model%20Serving-orange)
+![Pytest](https://img.shields.io/badge/Pytest-Automated%20Testing-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+# ✈️ Flight Delay Prediction REST API
 
 ## FastAPI-Based Machine Learning Model Deployment
 
@@ -6,7 +13,7 @@ A production-style REST API developed to deploy a trained machine learning model
 
 ---
 
-## Project Overview
+# Project Overview
 
 This project demonstrates the deployment phase of the machine learning lifecycle by transforming a trained predictive model into an accessible web service.
 
@@ -14,36 +21,46 @@ The API accepts flight-related inputs, processes requests using a trained regres
 
 ---
 
-## Technologies Used
+# 🎥 API Demonstration
 
-### Backend Development
+A short demonstration of the deployed REST API is available on Vimeo. The video shows the FastAPI application running inside a Docker container, submitting HTTP requests to the prediction endpoint, and returning real-time machine learning predictions through the deployed service.
+
+▶️ **Watch the API Demonstration**
+
+https://vimeo.com/1205144651
+
+---
+
+# Technologies
+
+## Backend Development
 
 - Python
 - FastAPI
 - Uvicorn
 
-### Machine Learning
+## Machine Learning
 
 - Scikit-learn
 - NumPy
 - Pandas
 
-### Testing
+## Testing
 
 - Pytest
 
-### Deployment
+## Deployment
 
 - Docker
 
-### Version Control
+## Version Control
 
 - Git
 - GitHub
 
 ---
 
-## Features
+# Features
 
 - REST API endpoint for flight delay prediction
 - JSON-based request and response handling
@@ -55,7 +72,7 @@ The API accepts flight-related inputs, processes requests using a trained regres
 
 ---
 
-## Project Architecture
+# Project Architecture
 
 ```text
 .
@@ -71,9 +88,9 @@ The API accepts flight-related inputs, processes requests using a trained regres
 
 ---
 
-## API Endpoints
+# API Endpoints
 
-### Root Endpoint
+## Root Endpoint
 
 ```http
 GET /
@@ -91,13 +108,13 @@ Example Response:
 
 ---
 
-### Delay Prediction Endpoint
+## Delay Prediction Endpoint
 
 ```http
 GET /predict/delays
 ```
 
-Accepts:
+### Parameters
 
 | Parameter | Type | Description |
 |------------|------|-------------|
@@ -121,16 +138,16 @@ Example Response:
 
 ---
 
-## Automated Testing
+# Automated Testing
 
-The project includes automated unit tests using pytest to verify:
+The project includes automated unit tests using **pytest** to verify:
 
 - Root endpoint functionality
 - Prediction endpoint responses
 - Input validation
 - Error handling behavior
 
-Run tests with:
+Run the tests with:
 
 ```bash
 pytest
@@ -138,23 +155,23 @@ pytest
 
 ---
 
-## Docker Deployment
+# Docker Deployment
 
 The application is containerized using Docker for reproducible deployment.
 
-Build image:
+### Build the Docker image
 
 ```bash
 docker build -t flight-delay-api .
 ```
 
-Run container:
+### Run the container
 
 ```bash
 docker run -p 8000:8000 flight-delay-api
 ```
 
-Access API:
+### Access the API
 
 ```text
 http://localhost:8000
@@ -162,7 +179,7 @@ http://localhost:8000
 
 ---
 
-## Machine Learning Workflow
+# Machine Learning Workflow
 
 1. Load trained regression model
 2. Load airport encoding mappings
@@ -173,7 +190,7 @@ http://localhost:8000
 
 ---
 
-## Results
+# Results
 
 The deployed API successfully:
 
@@ -185,7 +202,7 @@ The deployed API successfully:
 
 ---
 
-## Key Skills Demonstrated
+# Skills Demonstrated
 
 - Machine Learning Deployment
 - REST API Development
@@ -199,7 +216,19 @@ The deployed API successfully:
 
 ---
 
-## Learning Outcomes
+# Business Value
+
+This project demonstrates how production-ready machine learning services can:
+
+- Deploy predictive models through REST APIs
+- Deliver real-time inference
+- Support scalable application deployment
+- Improve software reliability through automated testing
+- Enable reproducible deployment using containerization
+
+---
+
+# Learning Outcomes
 
 This project demonstrates practical experience with:
 
@@ -212,22 +241,25 @@ This project demonstrates practical experience with:
 
 ---
 
-## Project Portfolio Connection
+# Portfolio Connection
 
 This repository is part of a two-project portfolio demonstrating an end-to-end machine learning solution for flight delay prediction.
 
 | Repository | Focus |
 |------------|--------|
-| [Flight Delay ML Pipeline](https://github.com/joannar77/flight-delay-ml-pipeline) | Data engineering, feature engineering, model training, experiment tracking, and machine learning pipeline development |
-| [Flight Delay API Deployment](https://github.com/joannar77/flight-delay-api-deployment) | FastAPI application, model serving, automated testing, Docker containerization, and deployment |
+| **Flight Delay ML Pipeline** | Data engineering, feature engineering, model training, experiment tracking, and machine learning pipeline development |
+| **Flight Delay API Deployment** | FastAPI application, model serving, automated testing, Docker containerization, and deployment |
 
 Together, these projects demonstrate both machine learning development and production deployment skills.
 
-## Author
+---
+
+# Author
 
 **Joanna Ronchi**
 
-Master of Science, Data Analytics (Data Science Specialization)
+- Master of Science in Data Science
+- Bachelor of Science in Information Technology Management
 
 GitHub: https://github.com/joannar77
 
@@ -235,6 +267,6 @@ LinkedIn: https://www.linkedin.com/in/joanna-ronchi/
 
 ---
 
-## License
+# License
 
 This repository is provided for portfolio and educational purposes.
