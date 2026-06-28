@@ -7,8 +7,6 @@
 
 # ✈️ Flight Delay Prediction API with FastAPI & Docker
 
-## Flight Delay Prediction API
-
 A production-style REST API developed to deploy a trained machine learning model for flight delay prediction. The application exposes prediction endpoints through FastAPI, incorporates automated testing with pytest, and supports containerized deployment using Docker.
 
 ---
