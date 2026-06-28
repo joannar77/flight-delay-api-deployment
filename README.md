@@ -5,7 +5,7 @@
 ![Pytest](https://img.shields.io/badge/Pytest-Automated%20Testing-green)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-# ✈️ Flight Delay Prediction REST API
+# ✈️ Flight Delay Prediction API with FastAPI & Docker
 
 ## Flight Delay Prediction API with FastAPI & Docker
 
